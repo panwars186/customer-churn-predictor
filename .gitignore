@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Editor backups and swap files
+*~
+*.bak
+*.swp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Data files (raw data, processed data, etc.)
+data/raw/*.csv
+data/processed/*.csv
+data/*.csv # If you have other CSVs directly in data/
+# Or, if you want to ignore ALL data files and only track the data folder structure
+# data/
+
+# Machine Learning models
+models/*.joblib
+models/*.pkl
+
+# Environment variables / sensitive config
+.env
+config.ini
+*.log
+
+# Django specific
+db.sqlite3
+media/
+static/
+*.log
