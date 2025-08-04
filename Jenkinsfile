@@ -9,7 +9,7 @@ pipeline {
 
     environment {
         PYTHONUNBUFFERED = '1' // Ensures Python output is unbuffered in Jenkins console
-        # If you were using a production database, you'd define DB variables here, e.g.:
+        // If you were using a production database, you'd define DB variables here, e.g.:
         # DATABASE_URL = 'sqlite:///db.sqlite3'
     }
 
