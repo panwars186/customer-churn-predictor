@@ -2,7 +2,7 @@
 pipeline {
     agent {
         docker {
-            image 'sha256:0e66af38c9272490ba18757d5d4d41e4ac2160278ae40b69d6da9b5adbe98794' //'python:3.9-slim' // Use a Python image as our environment
+            image 'python:3.9-slim' // Use a Python image as our environment
             args '-u 0:0' // To avoid permission issues in some Docker environments
         }
     }
