@@ -66,3 +66,4 @@ pipeline {
         changed {
             echo 'Pipeline state has changed. Check logs for details.'
 }
+}
