@@ -8,4 +8,4 @@ class HomePageTest(TestCase):
 
     def test2(self):
         resp = self.client.get(reverse('home'))
-        self.assertEqual(resp,"hello world from Django and Jenknins")
+        self.assertEqual(resp,"Hello world from Django and Jenknins")
